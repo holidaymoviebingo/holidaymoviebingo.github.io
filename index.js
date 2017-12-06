@@ -88,7 +88,7 @@ var app = {
         };
         document.querySelector('.app').style.display='block';
         document.querySelector('.setup').style.display='block';
-        setHeader('Hallmark Holiday Movie Bingo!');
+        setHeader('Holiday Movie Bingo!');
     },
     // Log event to console
     receivedEvent: function(id) {
