@@ -36,7 +36,7 @@ var card = {
     "2_5":{word:null,checked:false},
     "3_1":{word:null,checked:false},
     "3_2":{word:null,checked:false},
-    "3_3":{word:null,checked:true},
+    "3_3":{word:null,checked:false},
     "3_4":{word:null,checked:false},
     "3_5":{word:null,checked:false},
     "4_1":{word:null,checked:false},
@@ -139,20 +139,16 @@ function makeCard(){
     var c = 0;
     for (square in card){
         var current = document.getElementById(square);
-	if (square === 'center'){
-		card[square].word=user_name;
-	} else {
-        	card[square].word=word_list[c];
-        	c++;
+        card[square].word=word_list[c];
+        c++;
 
-        	current.onclick = function () {
-            	//take a photo on click
-            		checkBox(this.id);
+        current.onclick = function () {
+            checkBox(this.id);
             		// if (checkForComplete()) {
             		//     document.querySelector('.save').disabled = false;
             		// };
-        	}
-	}
+        }
+	
 	var name = document.createElement('span');
         name.innerHTML = card[square].word;
         current.appendChild(name);
