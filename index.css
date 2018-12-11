@@ -24,7 +24,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#D11111;
+    
 /*    background-image:linear-gradient(top, #8C0E0E 0%, #D11111 51%);
     background-image:-webkit-linear-gradient(top, #8C0E0E 0%, #D11111 51%);
     background-image:-ms-linear-gradient(top, #8C0E0E 0%, #D11111 51%);
@@ -51,7 +51,7 @@ body {
 }
 
 .header {
-    background-color:#8C0E0E;
+    background-color:#D11111;
     height:100px;
     color:white;
     line-height:100px;
@@ -84,6 +84,7 @@ body {
 
 .main {
     display: none;
+    background-color:#8C0E0E;
 }
 
 .save {
