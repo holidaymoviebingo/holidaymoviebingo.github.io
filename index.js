@@ -36,7 +36,7 @@ var card = {
     "2_5":{word:null,checked:false},
     "3_1":{word:null,checked:false},
     "3_2":{word:null,checked:false},
-    "3_3":{word:null,checked:false},
+    "3_3":{word:null,checked:true},
     "3_4":{word:null,checked:false},
     "3_5":{word:null,checked:false},
     "4_1":{word:null,checked:false},
