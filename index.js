@@ -141,6 +141,7 @@ function makeCard(){
         var current = document.getElementById(square);
 	if (square === '3_3'){
 	    card[square].word="FREE!";
+            current.style.backgroundColor = "green";
 	} else {
             card[square].word=word_list[c];
 	    c++;
