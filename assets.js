@@ -6,10 +6,10 @@ var assets = {
 		"recognize from a different christmas movie",
 		"wizened old person",
 		"love triangle",
-		"old boyfriend casts a shadow",
+		"old relationship casts a shadow",
 		"single dad",
 		"inclement weather",
-		"stock photo montage",
+		"stock footage",
 		"wedding/proposal",
 		"working in family store",
 		"event planner",
@@ -41,7 +41,7 @@ var assets = {
 		"deceased parent",
 		"workaholic parent",
 		"pointless misunderstanding used to further plot",
-		"scrooge like character",
+		"scrooge-like character",
 		"unnecesarily jealous person",
 		"acoustic music interlude",
 		"christmas presents under an outdoor tree",
@@ -55,6 +55,15 @@ var assets = {
 		"returning to hometown",
 		"terrible christmas decorations",
 		"dead spouse",
-		"riding a horse"
+		"riding a horse",
+                "character with a christmas name",
+                "vanilla guy",
+                "former child actor",
+                "extremely amicable breakup",
+                "actor who looks like someone famous",
+                "set in department store",
+                "clearly filmed in the summer",
+                "elf",
+                "overly personal with strangers"
 	]
 };
